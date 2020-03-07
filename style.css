@@ -1,0 +1,100 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    /* resetcssからのデフォルトfontsizeが１０pxになるように設定 */
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro W3', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_logo {
+    text-align: center;
+}
+
+header>img {
+    width: 17rem;
+    text-align: center;
+}
+
+form>h1 {
+    margin: 1rem 0;
+}
+
+.main {
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+    border: solid #666666 1px;
+    border-radius: 0.3rem;
+}
+
+.main_contents {
+    padding-left: 3rem;
+}
+
+.main_contents p {
+    font-size: 1.4rem;
+}
+
+.main_bottom {
+    margin: 4rem 0 2rem 0;
+}
+
+.onemore {
+    margin-top: 1rem;
+}
+
+input {
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+    border-radius: 0.3rem;
+    width: 36rem;
+    height: 3.3rem;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #f7b910;
+    cursor: pointer;
+    margin: 1.2rem 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #c4920b;
+    transition: all .3s;
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+.main_contents span {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.foot li {
+    padding-right: 2rem;
+}
+
+footer>p {
+    color: #666666;
+}
