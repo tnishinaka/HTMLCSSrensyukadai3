@@ -17,12 +17,7 @@ a {
     text-align: center;
 }
 
-header>img {
-    width: 17rem;
-    text-align: center;
-}
-
-form>h1 {
+.main_contents h1 {
     margin: 1rem 0;
 }
 
@@ -30,15 +25,12 @@ form>h1 {
     width: 42.5rem;
     height: auto;
     margin: 0 auto;
-    border: solid #666666 1px;
+    border: solid #C0C0C0 1px;
     border-radius: 0.3rem;
 }
 
 .main_contents {
     padding-left: 3rem;
-}
-
-.main_contents p {
     font-size: 1.4rem;
 }
 
@@ -46,7 +38,7 @@ form>h1 {
     margin: 4rem 0 2rem 0;
 }
 
-.onemore {
+.top-margin {
     margin-top: 1rem;
 }
 
@@ -59,14 +51,13 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #f7b910;
     cursor: pointer;
     margin: 1.2rem 0;
+    background: radial-gradient(closest-side, #f0c14b, #f7b910)
 }
 
 input[type="submit"]:hover {
-    background-color: #c4920b;
-    transition: all .3s;
+    background: #f0c14b;
 }
 
 .logo {
@@ -75,6 +66,10 @@ input[type="submit"]:hover {
 
 .main_contents span {
     font-size: 1.2rem;
+    color: #666666;
+}
+
+.rule_text {
     color: #666666;
 }
 
@@ -89,12 +84,14 @@ footer {
     list-style: none;
     justify-content: center;
     margin-bottom: 2rem;
+    font-size: 1.3rem;
 }
 
 .foot li {
     padding-right: 2rem;
 }
 
-footer>p {
+footer>address {
     color: #666666;
+    font-size: 1.3rem;
 }
