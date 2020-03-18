@@ -1,7 +1,7 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 html {
     font-size: 62.5%;
-    /* resetcssからのデフォルトfontsizeが１０pxになるように設定 */
+    /* resetcssからのデフォルトfontsizeが１０pxになるように設定 
 }
 
 body {
@@ -94,4 +94,4 @@ footer {
 footer>address {
     color: #666666;
     font-size: 1.3rem;
-}
+} */

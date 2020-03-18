@@ -13,38 +13,40 @@
 
 <body>
     <main>
-        <div class="main_logo">
-            <img src="amazon_img/amazon_logo.png" width="200" height="70" alt="アマゾンのロゴ">
+        <div class="container main_logo">
+            <img src="amazon_img/amazon_logo.png" alt="アマゾンのロゴ">
         </div>
-        <div class="main">
+        <div class="container">
             <div class="main_contents">
-                <h1>アカウントを作成</h1>
-                <form action="#">
-                    <p><label for="your-name">名前
+                <section>
+                    <h1>アカウントを作成</h1>
+                    <form action="#">
+                        <label for="your-name">名前
             </label><br>
-                        <input type="text" name="name" id="your-name"></p>
-                    <p><label for="your-huri">フリガナ
+                        <input type="text" name="name" id="your-name">
+                        <label for="your-huri">フリガナ
             </label><br>
-                        <input type="text" name="huri" id="your-huri"></p>
-                    <p><label for="your-email">Eメールアドレス
+                        <input type="text" name="huri" id="your-huri">
+                        <label for="your-email">Eメールアドレス
             </label><br>
-                        <input type="email" name="email" id="your-email"></p>
-                    <p><label for="your-pass01">パスワード
+                        <input type="email" name="email" id="your-email">
+                        <label for="your-pass01">パスワード
             </label><br>
-                        <input type="password" name="password" id="your-pass01" minlength="6" placeholder="最低６文字必要です"></p>
-                    <img class="logo" src="amazon_img/info.png" alt="iロゴ"><span>パスワードの長さは最低６文字です。</span><br>
-                    <div class="top-margin"></div>
-                    <label for="your-pass02">もう一度パスワードを入力してください
+                        <input type="password" name="password" id="your-pass01" minlength="6" placeholder="最低６文字必要です">
+                        <img class="logo" src="amazon_img/info.png" alt="iロゴ"><span>パスワードの長さは最低６文字です。</span><br>
+                        <div class="top-margin"></div>
+                        <label for="your-pass02">もう一度パスワードを入力してください
             </label><br>
-                    <input type="password" name="password" id="your-pass02">
-                    <input type="submit" name="submit" value="Amazonアカウントを作成">
-                </form>
-                <p class="rule_text">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライパ<br>シー規約</a>に同意したとみなされます。</p>
-                <p class="main_bottom">すでにアカウントをお持ちですか？<a href="#">ログイン▶︎</a></p>
+                        <input type="password" name="password" id="your-pass02">
+                        <input type="submit" name="submit" value="Amazonアカウントを作成">
+                    </form>
+                    <p class="rule_text">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライパシー規約</a>に同意したとみなされます。</p>
+                    <p class="main_bottom">すでにアカウントをお持ちですか？<a href="#">ログイン▶︎</a></p>
+                </section>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="container">
         <ul class="foot">
             <li><a href="#">利用規約</a></li>
             <li><a href="#">プライパシー規約</a></li>
