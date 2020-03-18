@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
-
     <title>Amazonの登録画面</title>
 </head>
 
@@ -21,28 +20,39 @@
                 <section>
                     <h1>アカウントを作成</h1>
                     <form action="#">
-                        <label for="your-name">名前
+                        <div class="con">
+                            <label for="your-name">名前
             </label><br>
-                        <input type="text" name="name" id="your-name">
-                        <label for="your-huri">フリガナ
+                            <input type="text" name="name" id="your-name">
+                        </div>
+                        <div class="con">
+                            <label for="your-huri">フリガナ
             </label><br>
-                        <input type="text" name="huri" id="your-huri">
-                        <label for="your-email">Eメールアドレス
+                            <input type="text" name="huri" id="your-huri">
+                        </div>
+                        <div class="con">
+                            <label for="your-email">Eメールアドレス
             </label><br>
-                        <input type="email" name="email" id="your-email">
-                        <label for="your-pass01">パスワード
+                            <input type="email" name="email" id="your-email">
+                        </div>
+                        <div class="con">
+                            <label for="your-pass01">パスワード
             </label><br>
-                        <input type="password" name="password" id="your-pass01" minlength="6" placeholder="最低６文字必要です">
-                        <img class="logo" src="amazon_img/info.png" alt="iロゴ"><span>パスワードの長さは最低６文字です。</span><br>
-                        <div class="top-margin"></div>
+                            <input type="password" name="password" id="your-pass01" minlength="6" placeholder="最低６文字必要です">
+                        </div>
+                        <p class="pass_alert"><img class="logo" src="amazon_img/info.png" alt="iロゴ"><span>パスワードの長さは最低６文字です。</span></p>
                         <label for="your-pass02">もう一度パスワードを入力してください
             </label><br>
-                        <input type="password" name="password" id="your-pass02">
-                        <input type="submit" name="submit" value="Amazonアカウントを作成">
+                        <div class="con">
+                            <input type="password" name="password" id="your-pass02">
+                        </div>
+                        <div class="con">
+                            <input type="submit" name="submit" value="Amazonアカウントを作成">
+                        </div>
                     </form>
-                    <p class="rule_text">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライパシー規約</a>に同意したとみなされます。</p>
-                    <p class="main_bottom">すでにアカウントをお持ちですか？<a href="#">ログイン▶︎</a></p>
                 </section>
+                <p class="rule_text">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライパシー規約</a>に同意したとみなされます。</p>
+                <p class="main_bottom">すでにアカウントをお持ちですか？<a href="#">ログイン▶︎</a></p>
             </div>
         </div>
     </main>
