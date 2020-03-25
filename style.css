@@ -14,31 +14,38 @@ li {
 }
 
 .container {
-    text-align:center;
     margin:0 auto;
-    max-width: 500px;
+    width: 500px;
+    height:auto;
+}
+
+.main_logo {
+    width: 450px;
+    text-align:center;
 }
 
 .main_logo img {
     margin-top:20px;
     width: 250px;
     height:90px;
+    object-fit: cover;
 }
 
 .main_contents {
-    text-align: left;
     border:1px solid rgba(192,192,192,0.5);
     border-radius:4px;
     box-sizing: border-box;
     width:450px;
-    height:630px;
+    height:auto;
     margin:0 auto;
     padding: 10px 20px;
+    margin-bottom:30px;
 }
 
 .main_contents h1 {
     font-weight: normal;
     font-size: 33px;
+    margin-bottom: 15px;
 }
 
 .main_contents span {
@@ -60,7 +67,7 @@ li {
     height:31px;
     width: 410px;
     border: 1px solid #a6a6a6;
-    box-shadow: rgba(255,255,255,0.5);
+    box-shadow: 0 0 1px rgba(0,0,0,0.4);
 }
 
 .con input:focus {
@@ -73,17 +80,20 @@ li {
 .con label {
     font-weight:500;
     display:block;
-    margin-top: 15px;
 }
 
 .con input[type="submit"] {
-    margin: 15px 0;
+    margin-bottom: 15px;
     background:linear-gradient(to bottom,#ffe3af,#f0c14b);
     font-size:15px;
 }
 
 .con input[type="submit"]:hover {
     background:linear-gradient(to bottom,#ffcb87,#d4ad48);
+}
+
+.margin-b {
+    margin-bottom:15px;
 }
 
 .rule_text,
@@ -93,12 +103,16 @@ li {
     letter-spacing: 0.5px;
 }
 
+.rule_text {
+    padding-bottom:50px;
+}
+
 .main_bottom {
-    padding: 50px 0 20px 0;
+    padding-bottom:20px;
+    box-sizing:border-box;
 }
 
 .foot {
-    padding-top: 30px;
     margin: 0 auto;
     width: 333px;
     display:flex;
@@ -106,6 +120,7 @@ li {
 }
 
 footer address {
+    text-align:center;
     color:#888888;
     padding:30px 0;
 }
