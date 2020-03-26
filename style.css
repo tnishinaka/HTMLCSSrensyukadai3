@@ -16,7 +16,6 @@ li {
 .container {
     margin:0 auto;
     width: 500px;
-    height:auto;
 }
 
 .main_logo {
@@ -25,7 +24,7 @@ li {
 }
 
 .main_logo img {
-    margin-top:20px;
+    margin-bottom:0;
     width: 250px;
     height:90px;
     object-fit: cover;
@@ -36,7 +35,6 @@ li {
     border-radius:4px;
     box-sizing: border-box;
     width:450px;
-    height:auto;
     margin:0 auto;
     padding: 10px 20px;
     margin-bottom:30px;
@@ -46,6 +44,7 @@ li {
     font-weight: normal;
     font-size: 33px;
     margin-bottom: 15px;
+    padding:0 10px;
 }
 
 .main_contents span {
@@ -59,13 +58,18 @@ li {
 }
 
 .pass_alert {
-    padding-bottom: 15px;
+    padding:0 10px 15px;
+}
+
+.con {
+    width:410px;
+    padding:0 10px;
 }
 
 .con input {
     border-radius:4px;
     height:31px;
-    width: 410px;
+    width: 390px;
     border: 1px solid #a6a6a6;
     box-shadow: 0 0 1px rgba(0,0,0,0.4);
 }
@@ -101,6 +105,7 @@ li {
     font-size:15px;
     color:#353535;
     letter-spacing: 0.5px;
+    padding:0 10px;
 }
 
 .rule_text {
