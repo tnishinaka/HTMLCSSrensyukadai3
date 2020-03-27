@@ -22,7 +22,6 @@ li {
 .main_logo a {
     display:block;
     text-align:center;
-    margin :0 auto;
 } 
 
 .main_logo img {
@@ -38,9 +37,9 @@ li {
     border-radius:4px;
     box-sizing: border-box;
     width:450px;
-    margin:0 auto;
+    margin:0 auto 30px;
     padding: 10px 20px;
-    margin-bottom:30px;
+    
 }
 
 .main_contents h1 {
@@ -61,14 +60,18 @@ li {
 }
 
 .pass_alert {
-    padding:0 10px 15px;
+    padding:0 10px 15px 0;
+}
+
+form {
+    margin-bottom: 15px;
 }
 
 
 .con input {
     border-radius:4px;
     height:31px;
-    width: 410px;
+    width: 100%;
     border: 1px solid #a6a6a6;
     box-shadow: 0 0 1px rgba(0,0,0,0.4);
     padding: 0 6px;
@@ -88,7 +91,6 @@ li {
 }
 
 .con input[type="submit"] {
-    margin-bottom: 15px;
     background:linear-gradient(to bottom,#ffe3af,#f0c14b);
     font-size:15px;
 }
