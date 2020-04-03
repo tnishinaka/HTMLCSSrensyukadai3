@@ -1,0 +1,143 @@
+@charset "UTF-8";
+html {
+    font-family:Officina Sans;
+    font-size: 16px;
+}
+
+a {
+    text-decoration:none;
+    color:#0f77c7;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main_logo {
+    text-align:center;
+    margin :0 auto;
+    width: 250px;
+}
+
+.main_logo a {
+    display:block;
+    text-align:center;
+} 
+
+.main_logo img {
+    margin-bottom:0;
+    width: 250px;
+    height:90px;
+    object-fit: cover;
+    display:block;
+}
+
+.main_contents {
+    border:1px solid rgba(192,192,192,0.5);
+    border-radius:4px;
+    box-sizing: border-box;
+    width:450px;
+    margin:0 auto 30px;
+    padding: 10px 20px;
+    
+}
+
+.main_contents h1 {
+    font-weight: normal;
+    font-size: 33px;
+    margin-bottom: 15px;
+    padding:0 10px;
+}
+
+.main_contents span {
+    font-size:14.5px;
+    color:#353535;
+}
+
+.main_contents .logo {
+    width:15px;
+    height:15px;
+}
+
+.pass_alert {
+    padding-bottom: 15px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+
+.con input {
+    border-radius:4px;
+    height:31px;
+    width: 100%;
+    border: 1px solid #a6a6a6;
+    box-shadow: 0 0 1px rgba(0,0,0,0.4);
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+.con input:focus {
+    box-shadow: 0 0 10px #ffa500;
+    border:solid 1px #ffa500;;
+    transition:all .1s;
+    outline: none;
+}
+
+.con label {
+    font-weight:500;
+    display:block;
+}
+
+.con input[type="submit"] {
+    background:linear-gradient(to bottom,#ffe3af,#f0c14b);
+    font-size:15px;
+}
+
+.con input[type="submit"]:hover {
+    background:linear-gradient(to bottom,#ffcb87,#d4ad48);
+}
+
+.margin-b {
+    margin-bottom:15px;
+}
+
+.rule_text,
+.main_bottom {
+    font-size:15px;
+    color:#353535;
+    padding:0 10px;
+}
+
+.rule_text {
+    padding-bottom:50px;
+}
+
+.main_bottom {
+    padding-bottom:20px;
+    box-sizing:border-box;
+}
+
+.foot {
+    margin: 0 auto;
+    width: 333px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer address {
+    text-align:center;
+    color:#888888;
+    padding:30px 0;
+}
+
+
+
+
+
+
+
+
+
+
